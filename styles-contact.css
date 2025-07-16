@@ -1,0 +1,209 @@
+/*This is my SSB Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my SSB Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url(images/sunglass-image.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.center {
+    width: 15%;
+	min-width: 300px;
+	padding: 1%;
+    margin: 250px auto;
+ 	background: rgba(220, 228, 231, 0.877); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: 4px bold rgba(255, 255, 255, 0.732);
+}
+
+   
+#logo {
+    margin-bottom: 16px;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	 font-family: "Lobster", sans-serif;
+	font-size: 2em;
+    margin: 0px auto 10px auto;
+    color: #d13b3b;
+}
+
+h2 {
+	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	 font-family: "Lobster", sans-serif;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: #f17e0b;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p{
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: #ff5a31;
+}
+    
+    
+
+nav{
+	font-size: 1.2em;
+	width: 80%;
+	min-width: 300px;
+	margin: 0 auto; 
+	border: dashed rgb(255, 255, 255);
+	border-width: 3px 0; 
+	text-align: center;
+	margin-top: 2em;
+}
+
+nav li {
+	display: inline; 
+}
+
+nav a {
+	display: inline-block;
+	padding: 10px;
+	color: rgb(255, 184, 17);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: rgb(231, 109, 57);
+	background: rgb(255, 184, 17);
+}
+
+
+@media only screen and (max-width : 480px) { 
+	h1 {font-size: 1.6em}
+	 h2 { font-size: 1.2 em} 
+}
+
+@mixin clearfix {
+&:after {
+display: table;
+clear: both;
+}
+}
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body {
+background-color: steelblue;
+min-height: 100%;
+}
+
+a {
+text-decoration: none;
+color: inherit
+}
+
+.main-header {
+background-color: #ffffff;
+padding: 5px 40px 10px 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+@media (min-width: 1025px) {
+.main-header {
+flex-direction: row;
+justify-content: space-between;
+}
+}
+
+.name {
+color: rgb(255, 255, 255);
+font-size: 1.35em;
+margin: 0;
+}
+a {
+text-align: center;
+display: block;
+padding: 10px 15px;
+}
+
+.main-nav {
+margin: 0;
+list-style-type: none;
+display: flex;
+}
+a {
+text-align: center;
+display: inline-block;
+padding: 10px 15px;
+font-size: .95em;
+color: #d13b3b;
+text-transform: uppercase;
+}

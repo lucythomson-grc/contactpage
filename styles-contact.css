@@ -68,11 +68,11 @@ html, body {
 }
 
 .center {
-    width: 15%;
-	min-width: 300px;
-	padding: 1%;
-    margin: 250px auto;
- 	background: rgba(220, 228, 231, 0.877); /*this uses opacity of 75% for the background color*/
+    width: 45%;
+	min-width: 500px;
+	padding: 5%;
+    margin: 150px auto;
+ 	background: rgba(220, 228, 231, 0.913); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 	border: 4px bold rgba(255, 255, 255, 0.732);
 }
@@ -88,7 +88,7 @@ h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
 	 font-family: "Lobster", sans-serif;
 	font-size: 2em;
-    margin: 0px auto 10px auto;
+    margin: 30px auto 30px auto;
     color: #d13b3b;
 }
 
@@ -104,10 +104,11 @@ h2 {
 
 p{
 	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	  font-family: "Caudex", serif;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #ff5a31;
+    color: #8c2e08;
+	text-align: left;
 }
     
     
@@ -130,7 +131,7 @@ nav li {
 nav a {
 	display: inline-block;
 	padding: 10px;
-	color: rgb(255, 184, 17);
+	color: rgb(149, 36, 36);
 	text-decoration: none;
 	font-weight: bold;
 }
